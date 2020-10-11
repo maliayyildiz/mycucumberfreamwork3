@@ -10,6 +10,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import java.util.concurrent.TimeUnit;
 
 public class Driver {
+
     private static WebDriver driver;
     public static WebDriver getDriver(){
 
