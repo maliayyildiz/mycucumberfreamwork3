@@ -71,7 +71,7 @@ public class KoalaPalaceRoomCreationPage {
     @FindBy(xpath = "(//button[@type='button'])[6]")
     public WebElement okButton;
 
-    @FindBy (xpath = "//input[@name='IDHotelRoom']")
+    @FindBy (xpath = "//input[@name='Name']")
     public WebElement searchBox;
 
     @FindBy(xpath = "//button[@class='btn btn-sm yellow filter-submit margin-bottom']")

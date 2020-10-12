@@ -78,51 +78,48 @@ public class DataTablesStepDefinition {
     }
 
     @When("user input the first name {string}")
-    public void user_input_the_first_name(String string) {
-        dataTablePage.firstNameBox.sendKeys(string);
+    public void user_input_the_first_name(String firstname) {
+        dataTablePage.firstNameBox.sendKeys(firstname);
     }
 
     @When("user input the last name  {string}")
-    public void user_input_the_last_name(String string) {
-       dataTablePage.lastNameBox.sendKeys(string);
+    public void user_input_the_last_name(String lastname) {
+       dataTablePage.lastNameBox.sendKeys(lastname);
     }
 
     @When("user input the position    {string}")
-    public void user_input_the_position(String string) {
-        dataTablePage.positionBox.sendKeys(string);
+    public void user_input_the_position(String position) {
+        dataTablePage.positionBox.sendKeys(position);
     }
 
     @When("user input the office      {string}")
-    public void user_input_the_office(String string) {
-        dataTablePage.officeBox.sendKeys(string);
+    public void user_input_the_office(String office) {
+        dataTablePage.officeBox.sendKeys(office);
     }
 
     @When("user input the extension {string}")
-    public void user_input_the_extension(String string) {
-        dataTablePage.extensionBox.sendKeys(string);
+    public void user_input_the_extension(String extension) {
+        dataTablePage.extensionBox.sendKeys(extension);
     }
 
     @When("user input the start date {string}")
-    public void user_input_the_start_date(String string) {
-       dataTablePage.startDateBox.sendKeys(string);
+    public void user_input_the_start_date(String startdate) {
+       dataTablePage.startDateBox.sendKeys(startdate);
     }
 
     @When("user input the salary {string}")
-    public void user_input_the_salary(String string) {
-        dataTablePage.salaryBox.sendKeys(string);
+    public void user_input_the_salary(String salary) {
+        dataTablePage.salaryBox.sendKeys(salary);
     }
 
     @Then("search for the first name {string}")
-    public void search_for_the_first_name(String string) throws InterruptedException {
-        Thread.sleep(3000);
-       dataTablePage.firstNameBox.sendKeys(string);
+    public void search_for_the_first_name(String firstname) throws InterruptedException {
+       dataTablePage.searchBox.sendKeys(firstname);
     }
 
     @Then("verify the name fields contains first name {string}")
-    public void verify_the_name_fields_contains_first_name(String string) throws InterruptedException {
-        Thread.sleep(3000);
-        dataTablePage.firstNameBox.sendKeys(string);
-        Thread.sleep(3000);
+    public void verify_the_name_fields_contains_first_name(String firstname) throws InterruptedException {
+        Assert.assertTrue(dataTablePage.nameField.getText().contains(firstname));
+        Driver.closeDriver();
     }
-
 }

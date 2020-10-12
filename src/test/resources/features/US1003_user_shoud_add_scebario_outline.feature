@@ -17,7 +17,3 @@ Feature: US1003_user_should_add_data_scenario_outline
     Examples:
       | firstname | lastname | position | offive | extension | startdate | salary |
       | ali       | jt       |dr        |hq      |100        |2020-10-10 |1000    |
-      | veli      | fr       |gr        |fr      |101        |2020-10-11 |1001    |
-      | hasan     | dr       |trr       |uyt     |102        |2020-10-12 |1002    |
-      | huseyin   | gr       |yr        |dds     |103        |2020-10-13 |1003    |
-      | fatma     | rr       |ytr       |bbd     |104        |2020-10-14 |1004    |
