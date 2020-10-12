@@ -1,0 +1,15 @@
+pages\DataTablePage.class
+stepdefinitions\DataTablesStepDefinition.class
+stepdefinitions\GoogleSearchStepDefinitions.class
+stepdefinitions\Hooks.class
+runners\Runner.class
+pages\KoalaPalaceRoomCreationPage.class
+runners\DataTablesTestRunner.class
+utilities\Driver.class
+pages\GooglePage.class
+pages\US15Page.class
+stepdefinitions\KoalaPalaceHotelRoomCreation.class
+utilities\ConfigReader.class
+runners\SmokeTestRunner.class
+stepdefinitions\Us15StepDefinitions.class
+runners\RegressionTestRunner.class

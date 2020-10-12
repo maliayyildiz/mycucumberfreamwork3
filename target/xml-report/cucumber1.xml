@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="36.553">
+<testcase classname="US1001_user_should_add_data" name="TC01_testing_data_table_web_page" time="16.017">
+<system-out><![CDATA[Given user should be on the web table page..................................passed
+And user should add new data by clicking new button.........................passed
+When user input the first name..............................................passed
+When user input the last name...............................................passed
+When user input the position................................................passed
+When user input the office..................................................passed
+When user input the extension...............................................passed
+When user input the start date..............................................passed
+When user input the salary..................................................passed
+Then user clicks on the create button.......................................passed
+And search for the first name...............................................passed
+Then verify the name fields contains first name.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1002_user_should_add_data_with_parameters" name="TC01_testing_data_table_web_page" time="19.88">
+<system-out><![CDATA[Given user should be on the web table page..................................passed
+And user should add new data by clicking new button.........................passed
+When user input the first name "ali"........................................passed
+When user input the last name  "veli".......................................passed
+When user input the position    "qa"........................................passed
+When user input the office      "hq"........................................passed
+When user input the extension "123".........................................passed
+When user input the start date "2020-03-03".................................passed
+When user input the salary "1000"...........................................passed
+Then user clicks on the create button.......................................passed
+And search for the first name "ali".........................................passed
+Then verify the name fields contains first name "ali".......................passed
+]]></system-out>
+</testcase>
+</testsuite>
