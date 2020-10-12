@@ -1,0 +1,458 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-12T22:36:38.172Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "TC01_testing_data_table_web_page",
+        "description": "",
+        "id": "us1001-user-should-add-data;tc01-testing-data-table-web-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1128000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.teraDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10658000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be on the web table page",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinition.user_should_be_on_the_web_table_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should add new data by clicking new button",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinition.user_should_add_new_data_by_clicking_new_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user input the first name",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinition.user_input_the_first_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user input the last name",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinition.user_input_the_last_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user input the position",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinition.user_input_the_position()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user input the office",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinition.user_input_the_office()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user input the extension",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinition.user_input_the_extension()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 245000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user input the start date",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinition.user_input_the_start_date()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user input the salary",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinition.user_input_the_salary()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3099000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on the create button",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinition.user_clicks_on_the_create_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "search for the first name",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinition.search_for_the_first_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the name fields contains first name",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinition.verify_the_name_fields_contains_first_name()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datatable"
+          }
+        ]
+      }
+    ],
+    "name": "US1001_user_should_add_data",
+    "description": "",
+    "id": "us1001-user-should-add-data",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1001_user_should_add_data.feature",
+    "tags": [
+      {
+        "name": "@datatable",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-12T22:36:54.220Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "TC01_testing_data_table_web_page",
+        "description": "",
+        "id": "us1002-user-should-add-data-with-parameters;tc01-testing-data-table-web-page",
+        "after": [
+          {
+            "result": {
+              "duration": 6250000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.teraDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8766000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be on the web table page",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinition.user_should_be_on_the_web_table_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 108000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should add new data by clicking new button",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinition.user_should_add_new_data_by_clicking_new_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user input the first name \"ali\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ali\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinition.user_input_the_first_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user input the last name  \"veli\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"veli\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinition.user_input_the_last_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user input the position    \"qa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"qa\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinition.user_input_the_position(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user input the office      \"hq\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hq\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinition.user_input_the_office(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user input the extension \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinition.user_input_the_extension(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user input the start date \"2020-03-03\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2020-03-03\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinition.user_input_the_start_date(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user input the salary \"1000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1000\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinition.user_input_the_salary(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3074000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on the create button",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinition.user_clicks_on_the_create_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "search for the first name \"ali\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ali\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinition.search_for_the_first_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 694000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the name fields contains first name \"ali\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ali\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinition.verify_the_name_fields_contains_first_name(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datatable"
+          }
+        ]
+      }
+    ],
+    "name": "US1002_user_should_add_data_with_parameters",
+    "description": "",
+    "id": "us1002-user-should-add-data-with-parameters",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1002_user_should_add_data_with_parameters.feature",
+    "tags": [
+      {
+        "name": "@datatable",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

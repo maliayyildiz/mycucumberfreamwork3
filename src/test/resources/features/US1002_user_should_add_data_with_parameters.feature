@@ -1,3 +1,4 @@
+@datatable
 Feature: US1002_user_should_add_data_with_parameters
 
   Scenario: TC01_testing_data_table_web_page

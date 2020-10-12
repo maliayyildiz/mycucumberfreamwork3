@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+@datatable
+>>>>>>> 5eff34faf9828b1261b39def0b367e2070643786
 Feature: US1002_user_should_add_data_with_parameters
 
   Scenario: TC01_testing_data_table_web_page

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @wip
+=======
+
+>>>>>>> 5eff34faf9828b1261b39def0b367e2070643786
 Feature: US15
   Background: user is on the Global Trader page
     Given user is on the Global Trader page

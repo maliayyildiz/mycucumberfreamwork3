@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @wip
+=======
+
+>>>>>>> 5eff34faf9828b1261b39def0b367e2070643786
 Feature: US01 KoalaPalaceHotelRoomCreation
 
   Background: user is on the koala palace page

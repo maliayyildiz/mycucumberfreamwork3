@@ -1,3 +1,4 @@
+@datatable
 Feature: US1001_user_should_add_data
 
   Scenario: TC01_testing_data_table_web_page
@@ -12,7 +13,6 @@ Feature: US1001_user_should_add_data
     When user input the salary
     Then user clicks on the create button
     And search for the first name
-    When search me
     Then verify the name fields contains first name
 
 

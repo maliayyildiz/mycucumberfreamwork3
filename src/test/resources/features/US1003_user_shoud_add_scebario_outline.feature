@@ -1,4 +1,4 @@
-@wip
+@regression
 Feature: US1003_user_should_add_data_scenario_outline
 
   Scenario Outline: TC01_testing_data_table_web_page

@@ -1,4 +1,4 @@
-@wip
+
 Feature: US01 KoalaPalaceHotelRoomCreation
 
   Background: user is on the koala palace page

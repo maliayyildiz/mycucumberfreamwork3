@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @wip
+=======
+@regression
+>>>>>>> 5eff34faf9828b1261b39def0b367e2070643786
 Feature: US1003_user_should_add_data_scenario_outline
 
   Scenario Outline: TC01_testing_data_table_web_page
@@ -17,3 +21,7 @@ Feature: US1003_user_should_add_data_scenario_outline
     Examples:
       | firstname | lastname | position | offive | extension | startdate | salary |
       | ali       | jt       |dr        |hq      |100        |2020-10-10 |1000    |
+<<<<<<< HEAD
+=======
+      | mali       | jt       |dr        |hq      |100        |2020-10-10 |1000    |
+>>>>>>> 5eff34faf9828b1261b39def0b367e2070643786
