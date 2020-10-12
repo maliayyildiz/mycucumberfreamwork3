@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="36.04">
+<testcase classname="US1000 Google search test" name="TC01 Verify Iphone search" time="12.853">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given user is on the google page............................................passed
+And user search for "school bag"............................................passed
+Then verify the result has "schol bag"......................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.GoogleSearchStepDefinitions.verify_the_result_has(GoogleSearchStepDefinitions.java:63)
+	at ✽.verify the result has "schol bag"(file:///Users/mehmetali/IdeaProjects/mycucumberfreamwork3/src/test/resources/features/US1000%20Google%20search%20test.feature:9)
+]]></failure>
+</testcase>
+<testcase classname="US1000 Google search test" name="TC02 Verify tea pot search" time="12.337">
+<system-out><![CDATA[Given user is on the google page............................................passed
+And user search for tea pot.................................................passed
+Then verify the result has tea pot..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1000 Google search test" name="TC03 Verify flower search" time="10.459">
+<system-out><![CDATA[Given user is on the google page............................................passed
+And user search for flower..................................................passed
+Then verify the result has flower...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
