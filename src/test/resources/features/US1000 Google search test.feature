@@ -1,4 +1,4 @@
-@hooks
+@smoke
 Feature: US1000 Google search test
 
   Background: User is on the google page
