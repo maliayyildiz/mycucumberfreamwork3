@@ -61,6 +61,7 @@ public class GoogleSearchStepDefinitions {
     public void verify_the_result_has(String string) {
         String pageTitle = Driver.getDriver().getTitle().toLowerCase();
         Assert.assertTrue(pageTitle.contains(string));
+        Driver.closeDriver();
     }
 
 }
